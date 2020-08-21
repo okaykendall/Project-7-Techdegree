@@ -14,8 +14,13 @@ alertBanner.addEventListener('click', e => {
     const element = e.target;
     if (element.classList.contains("alert-banner-close")) {
         alertBanner.style.display = "none";
+        window.setTimeout(function(){
+            alertBanner.style.opacity = 0;
+            alertBanner.style.transform = 'scale(0)';
+        }, 600);
     }
 });
+
 
 //daily bar chart
 

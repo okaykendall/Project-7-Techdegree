@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>YourApp Dashboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/css-toggle-switch@latest/dist/toggle-switch.css"/>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link href="styles.css" rel="stylesheet">
@@ -12,7 +13,7 @@
     
 <header>
     <h1><strong>Your</strong>App&#8482;</h1>
-    <div>
+    <div class="bellDiv">
         <svg class="bellIcon" xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 32 32">
             <path fill="#fff"  d="M24 18v-8c0-5.5-4.5-10-10-10S4 4.5 4 10v8l-4 8h9.1c.5 2.3 2.5 4 4.9 4s4.4-1.7 4.9-4H28l-4-8zM14 28c-1.3 0-2.4-.8-2.8-2h5.6c-.4 1.2-1.5 2-2.8 2zM3 24l3-6v-8c0-4.4 3.6-8 8-8s8 3.6 8 8v8l3 6H3z" fill="#fff"/>
         </svg>
@@ -40,6 +41,8 @@
             <input type="search" placeholder="Search"/>
         </div>
     </div>
+
+    <div class="break"></div>
 
     <div class="alertBar" id="alert">
         <!-- use js to insert alert here -->
@@ -77,7 +80,7 @@
         </div>
     </section>
 
-    <h3>Social Stats</h3>
+    <h3 class="social-header">Social Stats</h3>
     <section class="social-stats">
 
     <div class="social-container">
@@ -241,7 +244,7 @@
           <a></a>
         </span>
       </label>
-    <!-- put css toggle code here -->
+  
     <select class="form-field" id="timezone">
         <option disabled selected>Select a Timezone</option>
         <option>Eastern</option>
