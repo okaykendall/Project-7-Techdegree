@@ -98,12 +98,12 @@ h1 {
     border-right: solid #500085 1px;
 }
 
-svg path {
+.bellDiv svg path {
     fill: #fff;
     transition: fill 1s;
 }
 
-svg:hover path {
+.bellDiv svg:hover path {
     fill: palegreen;
 }
 
