@@ -32,7 +32,7 @@ const dailyChart = new Chart(dailyCanvas, {
         datasets: [{
             label: '# of Hits',
             data: [75, 115, 175, 125, 225, 200, 100],
-            backgroundColor: 'tomato',
+            backgroundColor: '#7477BF',
             borderColor: 'lightblue',
             borderWidth: 1
         }]

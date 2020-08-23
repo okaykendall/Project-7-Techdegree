@@ -98,6 +98,15 @@ h1 {
     border-right: solid #500085 1px;
 }
 
+svg path {
+    fill: #fff;
+    transition: fill 1s;
+}
+
+svg:hover path {
+    fill: palegreen;
+}
+
 /* nav styles */
 
 #sidebar-nav {
@@ -627,7 +636,21 @@ right: -600px;
     right: -550px;
 }
 
+.social-container {
+    height: 120px;
+}
 
+.social-text {
+    margin-top: 5px;
+}
+
+.message {
+    margin-left: 20px;
+}
+
+.settings {
+    margin-right: 5px;
+}
 
 
 }
